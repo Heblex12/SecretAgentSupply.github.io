@@ -1,0 +1,327 @@
+/* CSS Document */
+html, body{
+  font-size: 18px;
+  margin: 0;
+
+}
+.main-banner{
+  margin: 0;
+  height: 30rem;
+  width: auto;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 30rem;
+
+
+}
+.white-box{
+  position: absolute;
+  background-color: white;
+  height: auto;
+  width: 32rem;
+  margin-left: 44%;
+  margin-top: 10rem;
+}
+.white-box span{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+
+
+
+
+/* header */
+header{
+  display: flex;
+  position:  absolute;
+  background-color: cadetblue;
+  width: 960px;
+  margin: auto;
+  top: 1rem;
+  margin-left: 15%;
+
+
+}
+nav{
+  display: inline-flex;
+  margin-left: 39.5%;
+
+
+
+}
+nav span{
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+nav span a{
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+.logo img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.logo span{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+
+}
+
+/* Content */
+.content{
+  display: flex;
+  flex-direction: column;
+
+  width: 100vh;
+  height: 100vh;
+}
+.container-items{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  align-items: center;
+  padding-left: 25%;
+
+}
+.mobile{
+  display: none;
+}
+.container-items .exam,.container-items .Costum,.container-items .Delivery{
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  height: auto;
+
+
+}
+.exam a, .Costum a, .Delivery a{
+  text-align: center;
+}
+
+/* Supporting Sections */
+
+.supporting {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: 45%;
+  flex-direction: row;
+  margin-top: 3rem;
+
+}
+
+/* Info start */
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height: 9rem;
+  background-color: azure;
+  margin-left: 15%;
+
+}
+footer img{
+  height: 1rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+
+
+}
+footer p{
+  font-size: 1rem;
+  padding-top: 2.8rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .main-banner {
+    width: 700px;
+    height: 22rem;
+  }
+  header{
+    width: 700px;
+    padding: 0;
+    margin: 0;
+    top: 0%;
+  }
+  .content {
+    width: 700px;
+  }
+  .container-items {
+  width: 700px;
+  padding: 0;
+
+  overflow: auto;
+  }
+  .container-items .exam,.container-items .Costum,.container-items .Delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    height: auto;
+    padding-left: 7%;
+  }
+  .supporting{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 3rem;
+  }
+  .info{
+    padding-left: 7%;
+  }
+  .white-box{
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    margin-left: 5rem;
+  }
+  .mobile{
+    display: none;
+  }
+
+  nav {
+    margin-left: 10%;
+  }
+  footer{
+    width: 700px;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .main-banner {
+    width: 100%;
+    height: 17rem;
+  }
+  header{
+    width: 560px;
+    padding: 0;
+    margin: 0;
+    top: 0%;
+  }
+
+  .content {
+    width: 100%;
+    height: 170vh;
+  }
+  .container-items {
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  width: 100%;
+  padding: 0;
+  overflow: auto;
+  }
+  .container-items .exam,.container-items .Costum,.container-items .Delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1.54rem;
+    height: auto;
+    padding-left: 7%;
+  }
+  .supporting{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 3rem;
+  }
+  .info{
+    width: 100%;
+    padding-left: 0;
+  }
+  .info p {
+    padding: 1rem 0;
+  }
+
+  .title {
+    max-width: 100%;
+    padding: 0.5rem 1.25rem;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  .white-box{
+    width: 100%;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 9rem;
+  }
+  .white-box span{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 1rem 5rem;
+  }
+
+  nav {
+  display: none;
+  }
+  .mobile{
+    display: inline-flex;
+    margin-left: 60%;
+  }
+  .logo span{
+    display: none;
+  }
+  footer{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  footer img{
+    height: 2rem;
+    align-items: center;
+    padding-left: 40%;
+  }
+  footer p{
+    display: none;
+  }
+
+}

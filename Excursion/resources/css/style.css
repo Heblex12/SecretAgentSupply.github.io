@@ -1,0 +1,25 @@
+body{background-color: Black;
+text-align: center;}
+.first{font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.second{
+  font-family: Verdana;
+  font-weight: 300px;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+}
+.place{color: Aquamarine;
+font-size: 16px;}
+
+.description {font-family: Verdana;
+font-size: 21px;
+color: Gray;}
+.footer{color: Gray;
+  text-align: right;
+}
+img{align: center;}
